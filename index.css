@@ -32,16 +32,6 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAIA
 body {
     text-align: left;
     font-family: ms gothic, monospace;
-    background-image: 
-    radial-gradient(rgb(192, 243, 124) 30%, transparent 30%),
-    radial-gradient(rgb(192, 243, 124) 30%, transparent 30%);
-    background-position: 0px 0px, 40px 40px;
-    background-size: 80px 80px;
-    background-color: rgb(231, 250, 192);
-    font-size: 2vh;
-    margin:auto;
-    width:60%;
-    font-size: 2vh;
 }
 
 hr {
@@ -138,14 +128,6 @@ height: 100%;
 border: #696b6d 1px solid; 
 }
 /* this just styles the header BOX, not the image itself. */
-
-#header_img{
-width:100%;
-height:100%;
-object-fit: fill;
-background-position: 57% 50%; 
-background-image:url('/assets/the2hu.png');
-}
 /* this is for the header image, you should change the background-image:url to whatever the url to your image is, as well as the background-position values to reposition the image to your liking!  */
 
 .content { 
@@ -266,7 +248,7 @@ margin-right: auto;
 /* this is for centering images. you can see how i use it in the "musicbox" section! */
 
 /* Below is the mobile optimisation. Mess with it if you want. */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 800px) {
 .container{
 display: flex; 
 flex-flow: column; 
