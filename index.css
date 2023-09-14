@@ -89,9 +89,11 @@ src:url(/fonts/DigitalDrip.ttf);
     }
 
 .title {
-    max-width: 30%;
+    display: flex;
+    max-width: 40%;
     align-content: center;
-    margin-bottom: 2vh;
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
 
 .welcome {
@@ -209,6 +211,7 @@ text-align: center;
 
 #pop{
 color: #000;
+margin: 12px;
 -webkit-animation: pop 1s ease-in-out infinite alternate;
 animation: pop 1s ease-in-out infinite alternate;
 -moz-animation: pop 1s ease-in-out infinite alternate;
@@ -217,15 +220,15 @@ animation: pop 1s ease-in-out infinite alternate;
 
 @keyframes pop {
 from {
-transform:scale(0.95)
-}
-
-50% {
 transform:scale(1)
 }
 
+50% {
+transform:scale(1.2)
+}
+
 to {
-transform:scale(0.95)
+transform:scale(1)
 }
 }
 
