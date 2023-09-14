@@ -31,7 +31,9 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAIA
 
 body {
     text-align: left;
-    font-family: ms gothic, monospace;
+    font-family: bitmap, monospace;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
 }
 
 hr {
@@ -56,7 +58,7 @@ p{
 }
 
 .main{
-    font-size: 16px;
+    font-size: 2vh;
 }
 
 ::-moz-selection {
@@ -81,6 +83,11 @@ src:url(/fonts/DigitalDrip.ttf);
     src:url(/fonts/GoldenGirdle.otf);
     }
 
+@font-face {
+    font-family:bitmap;
+    src:url(/fonts/MDJPG16.TTF);
+    }
+
 .title {
     max-width: 30%;
     align-content: center;
@@ -92,7 +99,7 @@ src:url(/fonts/DigitalDrip.ttf);
     display: table;
     margin: 0 auto;
     color: #000000;
-    letter-spacing: 25px;
+    letter-spacing: 2vh;
 }
 
 .container {  
